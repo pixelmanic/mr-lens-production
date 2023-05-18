@@ -1,0 +1,18 @@
+.awDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.addwork {
+    background-color: gray;
+    padding: 10px;
+}
+
+.awBtn {
+    background-color: #343a40;
+    border: none;
+    padding: 10px 40px;
+}
+
+

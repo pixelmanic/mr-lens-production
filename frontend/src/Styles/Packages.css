@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.hiddenP {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  
+  .visibleP {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .hiddenM {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+  }
+  
+  .visibleM {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hiddenM2 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 3s ease-in-out, transform 2s ease-in-out;
+  }
+  
+  .visibleM2 {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hiddenM3 {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 4s ease-in-out, transform 2s ease-in-out;
+  }
+  
+  .visibleM3 {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hiddenM4 {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 5s ease-in-out, transform 2s ease-in-out;
+  }
+  
+  .visibleM4 {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+
+.packTxt {
+    margin-top: 125px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+.Packpara {
+    color: gray;
+    letter-spacing: 1px;
+    font-family: 'Gloock', serif;
+}
+
+.packagesDiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.package {
+    width: 400px;
+    margin: 20px;
+    transition:  0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.package:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1000px) {
+    .package {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .package {
+      width: 220px;
+  }
+}

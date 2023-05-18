@@ -1,0 +1,52 @@
+
+
+@media screen and (min-width:998px) {
+    .togglerButton {
+        display: none;
+    }
+    .brandNavSmall {
+        display: none;
+    }
+    .mainNav {
+        justify-content: space-around !important;
+    }
+    .brandNavMain {
+        width: 230px;
+    }
+    .brandNavs{
+        display: none;
+    }
+    .linksNav {
+        width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .link {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        margin: 8px;
+        width: 100px;
+        transition: letter-spacing 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .link:hover {
+        letter-spacing: 0.2em;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .Navbar {
+        backdrop-filter: none !important;
+    }
+    .linksNav {
+        display: none;
+    }
+    .brandNavsmall {
+        width: 150px;
+    }
+    .nav-item{
+        font-size: 23px;
+    }
+}

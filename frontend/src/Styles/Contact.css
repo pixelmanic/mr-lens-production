@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.contMain {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/public/Images/ContactB.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hiddenP {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.visibleP {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.formM {
+  transform: translateY(50px);
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+
+.visibleF {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contTxt {
+  margin-top: 125px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.conth3 {
+  color: gray;
+  font-family: sans-serif;
+}
+
+#form {
+  padding: 20px;
+  width: 40% !important;
+  background: rgba( 255, 255, 255, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-bottom: 10px;
+}
+
+.inputField {
+
+}
+
+@media screen and (max-width:998px) {
+    #form {
+      width: 60% !important;
+    }
+}
